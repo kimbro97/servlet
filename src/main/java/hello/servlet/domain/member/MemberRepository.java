@@ -13,7 +13,7 @@ public class MemberRepository {
 
     private MemberRepository() {}
 
-    static MemberRepository getInstance() {
+    public static MemberRepository getInstance() {
         return instance;
     }
 
